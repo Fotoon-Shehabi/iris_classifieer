@@ -30,4 +30,4 @@ def build_model():
 	return model
  
 iris_classifier = build_model()
-iris_classifier.fit(X, encoded_cat_Y, epochs=64)
+iris_classifier.fit(X, encoded_cat_Y, epochs=128)
